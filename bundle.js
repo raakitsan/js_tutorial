@@ -7,9 +7,9 @@ function palindromeTester() {
   let palindromeResult = document.querySelector("#palindromeResult");
 
   if (phrase.palindrome()) {
-    palindromeResult.innerHTML += `"${phrase.content}" is a palindrome!`;
+    palindromeResult.innerHTML = `"${phrase.content}" is a palindrome!`;
   } else {
-    palindromeResult.innerHTML += `"${phrase.content}" is not a palindrome.`;
+    palindromeResult.innerHTML = `"${phrase.content}" is not a palindrome.`;
   }
 }
 
