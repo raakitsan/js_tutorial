@@ -12,8 +12,9 @@ function palindromeTester() {
     alert(`"${phrase.content}" is not a palindrome.`)
   }
 }
-
-let button = document.querySelector("#palindromeTester");
-button.addEventListener("click", function() {
-  palindromeTester();
+document.addEventListener("DOMContentLoaded", function() {
+  let button = document.querySelector("#palindromeTester");
+  button.addEventListener("click", function() {
+    palindromeTester();
+  });
 });
