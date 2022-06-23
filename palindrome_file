@@ -1,4 +1,4 @@
-#!/c/Program Files/nodejs/node
+#!/user/local/bin/node
 
 let fs = require("fs");
 let Phrase = require("<username>-palindrome");
