@@ -1,7 +1,7 @@
-#!/user/local/bin/node
+#!/c/Progra~1/nodejs/node
 
 let fs = require("fs");
-let Phrase = require("<username>-palindrome");
+let Phrase = require("braak-palindrome");
 
 let text = fs.readFileSync("phrases.txt", "utf-8");
 text.split("\n").forEach(function(line) {
