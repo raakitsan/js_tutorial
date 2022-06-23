@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "braak-palindrome": "^0.1.0"
+    "braak-palindrome": "^0.1.0",
+    "urllib": "^2.38.0"
   }
 }
